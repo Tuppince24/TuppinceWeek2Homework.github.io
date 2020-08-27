@@ -1,3 +1,13 @@
+* {
+    font-family: 'Changa', sans-serif;
+}
+
 body {
-    background-color: aqua;
+    background-image: url("https://toppng.com/uploads/preview/christmas-toys-glitter-golden-dark-christmas-new-year-11570323013zid2lbufwx.jpg");
+};
+
+#myName {
+    background-color: black;
+    color: gold;
+    
 }
