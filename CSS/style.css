@@ -1,13 +1,54 @@
 * {
     font-family: 'Changa', sans-serif;
 }
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 body {
     background-image: url("https://toppng.com/uploads/preview/christmas-toys-glitter-golden-dark-christmas-new-year-11570323013zid2lbufwx.jpg");
-};
+}
+header{
+    margin-bottom: 20px;
 
+}
 #myName {
-    background-color: black;
+    font-weight: bolder;
     color: gold;
+    font-size: xx-large;
     
 }
+
+.container{
+    margin:0 auto;
+    width: 75%;
+    padding: 20px 10px 20px 15px; 
+    background-color: gray;
+}
+
+.aboutMe{
+    margin: 20px 10px;
+    padding: 20px 10px;
+}
+
+h1 {
+    font-size: x-large;
+    color: gold;
+    font-weight: bold;
+}
+    
+
+.pic1 {
+    border: black solid;
+}
+
