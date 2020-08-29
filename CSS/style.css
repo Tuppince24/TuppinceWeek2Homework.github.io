@@ -56,6 +56,15 @@ p {
     line-height: 5vh;
 }
 
+.nav-bar-list-item {
+    color: whitesmoke;
+    font-family: 'Changa', sans-serif;
+}
+
+li:hover {
+    color: whitesmoke;
+}
+
 
 
 
@@ -64,4 +73,33 @@ p {
     font-family: 'Changa', sans-serif;
     padding-right: 20px;
     margin-left:auto;
+    position: relative;
+}
+
+/* contact*/
+.contacts {
+    list-style: none;
+}
+
+.contacts li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+label {
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 12px;
+    clear: left;
+    color: #edf0f1;
+}
+input, textarea {
+    margin-top: 12px;
+}
+.submit {
+    margin-left: 150px;
+    padding-bottom: 10px;
+    width: 40px;
+    border: 10px;
 }
