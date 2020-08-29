@@ -1,2 +1,3 @@
 # TuppinceWeek2Homework.github.io
-Creating a profile 
+Creating a profile
+ 

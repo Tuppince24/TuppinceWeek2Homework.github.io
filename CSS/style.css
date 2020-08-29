@@ -32,14 +32,12 @@ header{
 .container{
     margin:0 auto;
     width: 75%;
+    height: 100%;
     padding: 20px 10px 20px 15px; 
     background-color: gray;
 }
 
-.aboutMe{
-    margin: 20px 10px;
-    padding: 20px 10px;
-}
+
 
 h1 {
     font-size: x-large;
@@ -50,5 +48,20 @@ h1 {
 
 .pic1 {
     border: black solid;
+    height: 50vh;
 }
 
+p {
+    color: whitesmoke;
+    line-height: 5vh;
+}
+
+
+
+
+/* portfolio*/ 
+.projects {
+    font-family: 'Changa', sans-serif;
+    padding-right: 20px;
+    margin-left:auto;
+}
