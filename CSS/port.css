@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px){
+    .container {
+        height: 100%S;
+        width: 50%;
+    
+        position: relative;
+    }
+    
+    .container > .card1 {
+        max-height: 100%;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    
+        transform: translate(-50%, -50%);
+    }
+    .float-left {
+        float: left;
+    }
+    
+    .clearfix:after {
+        content: normal;
+        display: block;
+        clear: both;
+    }
+}

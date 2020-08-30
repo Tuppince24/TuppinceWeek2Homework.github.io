@@ -34,7 +34,7 @@ header{
     width: 75%;
     height: 100%;
     padding: 20px 10px 20px 15px; 
-    background-color: gray;
+    background-color: black;
 }
 
 
@@ -53,7 +53,8 @@ h1 {
 
 p {
     color: whitesmoke;
-    line-height: 5vh;
+    line-height: 4vh;
+    font-size: x-large;
 }
 
 .nav-bar-list-item {
@@ -73,10 +74,25 @@ li:hover {
     font-family: 'Changa', sans-serif;
     padding-right: 20px;
     margin-left:auto;
-    position: relative;
+}
+
+.container >.card1 {
+    object-fit: contain;
+    margin-top: 15px auto;
+    padding-top: 20px;
+    display: inline-block;
+
+    position: absolute;
+    top: 50%;
+    left:50%
+    
 }
 
 /* contact*/
+#contact{
+    margin: 0 auto;
+    width: 50%;
+}
 .contacts {
     list-style: none;
 }
@@ -103,3 +119,4 @@ input, textarea {
     width: 40px;
     border: 10px;
 }
+
