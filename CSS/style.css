@@ -44,6 +44,11 @@ h1 {
     color: gold;
     font-weight: bold;
 }
+
+#logo {
+    height: 25%;
+    width: 25%;
+}
     
 
 .pic1 {
