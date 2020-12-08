@@ -19,6 +19,8 @@ This is my portfolio page. Another plate for so I can share my work.
 
 MIT
 
+![](img/2020-12-08(2).png)
+
 
 # contact 
 taetupp47@gmail.com
