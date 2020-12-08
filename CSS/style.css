@@ -1,189 +1,41 @@
-* {
-    font-family: 'Changa', sans-serif;
-}
-.float-right {
-    float: right;
-}
-
-.float-left {
-    float: left;
-}
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-body {
-    background-image: url("https://toppng.com/uploads/preview/christmas-toys-glitter-golden-dark-christmas-new-year-11570323013zid2lbufwx.jpg");
-}
-header{
-    margin-bottom: 20px;
-
-}
-#myName {
-    font-weight: bolder;
-    color: gold;
-    font-size: xx-large;
-    
-}
-
-.container{
-    margin:0 auto;
-    width: 75%;
+/* index2.html */
+.main{
+    background-image: url(../img/background\ _2.jpg);
     height: 100%;
-    padding: 20px 10px 20px 15px; 
-    background-color: black;
 }
 
+.main_content{
+    text-align: center;
+}
+.main_content img{
+    height: 80%;
+    width: 80%;
 
-
-h1 {
-    font-size: x-large;
-    color: gold;
-    font-weight: bold;
 }
 
-#logo {
-    height: 25%;
-    width: 25%;
-}
-    
-
-.pic1 {
-    border: black solid;
-    height: 50vh;
+.main_article p{
+    margin-top: -1rem;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #fff;
+    display: inline;
 }
 
-p {
-    color: whitesmoke;
-    line-height: 4vh;
-    font-size: x-large;
+.main_article br{
+    background-color: #141414;
 }
-
-.nav-bar-list-item {
-    color: whitesmoke;
-    font-family: 'Changa', sans-serif;
-}
-
-li:hover {
-    color: whitesmoke;
-}
-
-
-
-
-/* portfolio*/ 
-.projects {
-    font-family: 'Changa', sans-serif;
-    padding-right: 20px;
-    margin-left:auto;
-}
-
-.container >.card1 {
-    object-fit: contain;
-    margin-top: 15px auto;
-    padding-top: 20px;
-    display: inline-block;
-
-    position: absolute;
-    top: 50%;
-    left:50%
-    
-}
-
-/* contact*/
-#contact{
-    margin: 0 auto;
-    width: 50%;
-}
-.contacts {
-    list-style: none;
-}
-
-.contacts li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-label {
-    float: left;
-    width: 150px;
-    text-align: right;
-    padding-right: 12px;
-    margin-top: 12px;
-    clear: left;
-    color: #edf0f1;
-}
-input, textarea {
-    margin-top: 12px;
-}
-.submit {
-    margin-left: 150px;
-    padding-bottom: 10px;
-    width: 40px;
-    border: 10px;
+@media screen and (max-width:768px){
+    .main_article p{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
 }
 
 
 /*footer*/
-#footer__container{
-    position: relative;
-    z-index: 999;
-    height: 100%;
-    width: 100%;
-    overflow: visible;
-    background: rgba(255, 255, 255, 0.3);
-  }
-  
-  #footer__content{
-    display: block;
-    text-shadow: 2px 2px 4px #272727;
-    padding: 10px 10px;
-    
-  }
-  
-  #footer__logo{
-    position: absolute;
-    bottom: 0;
-    
-  }
-  
-  #ic__container{
-    margin-top: 0;
-    padding-top: 0;
-  }
-  
-  #ic{
-    text-align: center;
-    list-style: none;
-    bottom: 0;
-  
-  }
-  
-  #message{
-    bottom: 0;
-    text-align: center;
-  }
-  
-  #copyright{
-    float: right;
-    padding-right: 12px;
-    bottom: 0;
-  }
-  
-  
-  @media only screen and (max-width: 870px) {
-    
-    #copyright{
-      text-align: center;
-    }
-  }
-  
-  
-/* .../footter*/  
-
-
+.footer{
+    background-image: url("../img/background\ _2.jpg");
+}
 
 
 

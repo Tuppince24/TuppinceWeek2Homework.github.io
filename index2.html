@@ -1,72 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/mainstlye.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Tuppince HW2</title>
 </head>
 <body>
-    <!--navagation bar-->
-    <!--see why CSS not working to change color in nav bar-->
-    <header>
-        <div class="fixed-top">
-            <div class="collapse" id="navbarToggleExternalContent">
-              <div class="bg-dark p-4">
-                <h5 class="text-white h4">Menu:</h5>
-                <ul id="nav-bar-list">
-                    <li class="nav-bar-list-item li">
-                        <span class="text-muted"><a href="index.html">Home</a></span>
-                    </li>
-                    <li class="nav-bar-list-item li">
-                        <span class="text-muted"><a href="portfolio.html">Portfolio</a></span>
-                    </li>
-                    <li class="nav-bar-list-item li">
-                        <span class="text-muted"><a href="contact.html">contact</a></span>
-                    </li>
-                </ul>
-              </div>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="https://icons8.com/icons/set/github" target="blank" id="navbar_logo"><img src="./img/r2-d2-64.png" height="40"> Javonte</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            <nav class="navbar navbar-dark bg-dark">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <h1 id="myName">Javonte Tuppince </h1>
-            </nav>
-          </div>
-    </header>
-    
-    
-    
-    <!--making space -->
-    <top class="row empty">
-        <div class="row">
-            <div class="col-md-12">
-                <br> <br> <br> <br>
-            </div>
-             
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="index.html" class="navbar_links">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="portfolio.html" class="navbar_links">Portfolio</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="https://drive.google.com/file/d/186vdTluBXyCMhgMpouNIJwz-lxVbfC7p/view" target="blank" class="navbar_links">Resume</a>
+                </li>
+                <li class="navbar_btn">
+                    <a class="button" id="showModal">contact</a>
+                </li>
+            </ul>
         </div>
-    </top>
+    </nav>
     
-    <!--content of my page-->
-    <section class="container">
-        <div class="row">
-            <div class="col-md-12 aboutMe">
-                <h1>About Me </h1>
+    
+    
+    <section class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1 class="animate__backInLeft">About me</h1>
+                <img class="/" src="./img/IMAG0148 (2).JPG" alt="Octo-pops" >
             </div>
-        </div>    
-
-
-            <!--row 2-->
-        <div class="row">
-            <div class="col-md-6">
-                <img class="pic1 img-fluid" src="./img/IMAG0148 (2).JPG" alt="Octo-pops">
-            </div>
-
-            <div class="col-md-6">
+            <article class="main_article">
                 <p >
                     Hello there I'm Javonte Tuppince a full-stack deveopler. I wish to pursude 
                     a career in free lancing also to work on project with corpreation. I also plan 
@@ -74,64 +53,44 @@
                     find me at the gym or hanging with my family. Or bettering my 
                     skills in other fields.  
                 </p>
-            </div>
+            </article>
         </div>
-
-        <!--space-->
-        <div class="row">
-            <div class="col-md-12">
-                <br> <br>
-            </div>
-        </div>
-
-        <!--3rd row-->
-        <div class="row">
-
-            <div class="col-md-4">
-                <a href="https://github.com/Tuppince24/TuppinceWeek2Homework.github.io">
-                    <img alt="Qries" src="https://www.macobserver.com/wp-content/uploads/2019/05/workfeatured-GitHub-2.png"
-                    width="150" height="70">
-                </a>
-
-                <div class="col-md-4">
-                    <a href="https://www.linkedin.com/in/javonte-tuppince-1a29681a9">
-                        <img alt="Qries" src="./img/blue.png" width="150" height="70">
-                    </a>
-                   
-                </div>
-               
-            </div>
-
-        </div>
-
     </section>
 
-    <footer>
-        <div id="footer__container">
-            <div id="footer__content">
-                <div class="row">
-                    <div class="col-md-6" id="ic__container">
-                        <br>
-                        <ul>
-                            <li><a id="ic" href="https://github.com/Tuppince24/TuppinceWeek2Homework.github.io"  target="_blank"><img alt="Qries" src="./img/github1.png"width="50"></a></li>
-                            <li><a id="ic" href="https://www.linkedin.com/in/javonte-tuppince-1a29681a9"  target="_blank"><img alt="Qries" src="./img/blue.png" width="50"></a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12" id="copyright__container">
-                        <br><br><br>
-                        <p id="copyright">&copy;Javonte Tuppince</p>
-                    </div>
-                </div>         
-            </div>
-        </div>
+    <footer class="footer">
+        <div class="footer_container"></div>
     </footer>
+    
+    
+
+    <!--Modal-->
+    <div class="modal modal--hidden">
+        <div class="modal_content">
+            <div class="modal__close-bar">
+                <span>X</span>
+            </div>
+           <h3>contact me </h3>
+           <hr>
+           <p>Eamail: taetupp47@gmail.com</p>
+           <p>Phone: (804)920-5228</p>
+           <!--Form-->
+            <form class="form_container" id="form-data" action="MAILTO:taetupp47@gmail.com" method="POST" enctype="text/plain">
+                <div class="form_content">
+                   <label for="name">Name</label>
+                   <input type="text" name="name">
+                   <br>
+                   <label for="email">Email address</label>
+                   <input type="email" name="email">
+                   <small id="emailHelp">We'll never share your email with anyone else.</small>
+                   <input type="submit" value="Submit">
+               </div>        
+            </form>
+        </div> 
+    </div>
    
 
 
-<script type="text/javascript" src="#"></script>
+    <script src="./js/add.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

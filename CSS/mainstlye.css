@@ -441,6 +441,28 @@ input[type=submit]:hover{
     cursor: pointer;
 }
 
+/*footer*/
+
+.footer{
+    background-image: url("../img/background\ _1\ -\ Copy.jpg");
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 2vh;
+    background-color: #141414;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+
+
+
 
 
 
