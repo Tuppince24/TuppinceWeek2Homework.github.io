@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./CSS/port.css">
-  <title>Home</title>
+  <title>Portfolio</title>
 </head>
 <body>
   <nav class="navbar">
@@ -38,77 +38,76 @@
     </div>
 </nav>
     
-    <!--To make some space -->
-    <top class="row empty">
-        <div class="row">
-            <div class="col-md-12">
-                <br> <br> <br> <br>
-            </div>
-             
+<section class="main">
+  <div class="main_container">
+    <h1>Projects</h1>
+      <div class="main_content">
+      
+        <div class="card" id="card1">
+          <div class="row">
+            <img class="img" src="./img/pastor1.png" alt="Avatar" style="width:100%">
+          </div>
+          <div class="container">
+            <h4><b>Front-end</b></h4>
+            <p>Church Project</p>
+            <a href="https://www.faithtabernaclefamilylifecenter.com/index.html" target="blank" class="btn btn-primary">Link!!</a>
+            <a href="https://github.com/Tuppince24/churchProject" target="blank" class="btn btn-primary">Link!!</a>
+          </div>
         </div>
-    </top>
+        <div class="card" id="card2">
+          <div class="row">
+          <img class="img" src="./img/2020-12-04 (3).png" alt="Avatar" style="width:100%">
+          </div>
+          <div class="container">
+            <h4><b>Back-end</b></h4>
+            <p>Perspektiv</p>
+            <a href="https://markdcross.github.io/perspektiv/" target="blank" class="btn btn-primary">Link!!</a>
+            <a href="https://github.com/markdcross/perspektiv" target="blank" class="btn btn-primary">Link!!</a>
+          </div>
+        </div>
+        <div class="card" id="card3">
+          <div class="row">
+            <img class="img" src="./img/gen.png" alt="Avatar" style="width:100%">
+          </div>
+          <div class="container">
+            <h4><b>Front-end</b></h4>
+            <p>Generator</p>
+            <a href="https://tuppince24.github.io/password_generator_W3/" target="blank" class="btn btn-primary">Link!!</a>
+            <a href="https://github.com/Tuppince24/password_generator_W3" target="blank" class="btn btn-primary">Link!!</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
     
-    <!--This is my content-->
-    <section class="container" id="passWebSites">
-        
-        
-        <!--row 1-->
-        <div class="row">
+<footer class="footer">
+  <div class="footer_container"></div>
+</footer>
 
-            <div class="col-md-12">
-                <h1>Portfolio</h1>
-            </div>
-        </div>
-        
-        
-        <!--row 2-->
-        <div class="row">
-
-            <div class ="row">
-                <div class="col-md-4 projects">
-                    <div class="card card1 .clearfix float-left"  style="width: 18rem; height: 100%;">
-                        <img style="height: 50%;" src="./img/pastor1.png" class="card-img-top" alt="A picture from the website">
-                        <div class="card-body">
-                          <h5 class="card-title">Faith Tabernacle Family Life Center</h5>
-                          <p class="card-text" style="color: black;">This is the very first website I created.
-                            Also it's up and running for people can veiw.    
-                            </p>
-                          <a href="https://www.faithtabernaclefamilylifecenter.com/index.html" class="btn btn-primary">Link!!</a>
-                        </div>
-                      </div>
-                </div> 
-                
-                
-                <div class ="row">
-                    <div class="col-md-4 projects">
-                        <div class="card card1 clearfix float-left "  style="width: 18rem; height: 100%;">
-                            <img style="height: 50%;" src="./img/2020-12-04 (3).png"class="card-img-top" alt="Youtube logo created by 3rd party">
-                            <div class="card-body">
-                              <h5 class="card-title">Youtube</h5>
-                              <p class="card-text" style="color: black;" >
-                                1 HR Uncle Iroh Inspiration 🔥 Avatar Lofi Study Beats</p>
-                              <a href="https://www.youtube.com/watch?v=jhvUqV3qeC0" class="btn btn-primary">Link!!</a>
-                            </div>
-                          </div>
-                    </div>
-                    
-                    
-                    <div class ="row">
-                        <div class="col-md-4 projects">
-                            <div class="card card1 clearfix float-left"  style="width: 18rem;">
-                                <img src="https://cdn.shopify.com/s/files/1/1209/2862/products/EPSON439_1800x1800.jpg?v=1578348979" class="card-img-top" alt="deku">
-                                <div class="card-body">
-                                  <h5 class="card-title">9anime</h5>
-                                  <p class="card-text" style="color: black;">Old anime website I use to use.</p>
-                                  <a href="https://9anime.ru/" class="btn btn-primary">Link!!</a>
-                                </div>
-                              </div>
-                        </div>
-
-            </div>
-        </div>
-
-    </section>
+<!--modal-->
+<div class="modal modal--hidden">
+  <div class="modal_content">
+      <div class="modal__close-bar">
+          <span>X</span>
+      </div>
+     <h3>contact me </h3>
+     <hr>
+     <p>Eamail: taetupp47@gmail.com</p>
+     <p>Phone: (804)920-5228</p>
+     <!--Form-->
+      <form class="form_container" id="form-data" action="MAILTO:taetupp47@gmail.com" method="POST" enctype="text/plain">
+          <div class="form_content">
+             <label for="name">Name</label>
+             <input type="text" name="name">
+             <br>
+             <label for="email">Email address</label>
+             <input type="email" name="email">
+             <small id="emailHelp">We'll never share your email with anyone else.</small>
+             <input type="submit" value="Submit">
+         </div>        
+      </form>
+  </div> 
+</div>
 
 
 
