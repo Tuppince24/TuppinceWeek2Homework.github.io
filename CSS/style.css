@@ -125,3 +125,65 @@ input, textarea {
     border: 10px;
 }
 
+
+/*footer*/
+#footer__container{
+    position: relative;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  #footer__content{
+    display: block;
+    text-shadow: 2px 2px 4px #272727;
+    padding: 10px 10px;
+    
+  }
+  
+  #footer__logo{
+    position: absolute;
+    bottom: 0;
+    
+  }
+  
+  #ic__container{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  #ic{
+    text-align: center;
+    list-style: none;
+    bottom: 0;
+  
+  }
+  
+  #message{
+    bottom: 0;
+    text-align: center;
+  }
+  
+  #copyright{
+    float: right;
+    padding-right: 12px;
+    bottom: 0;
+  }
+  
+  
+  @media only screen and (max-width: 870px) {
+    
+    #copyright{
+      text-align: center;
+    }
+  }
+  
+  
+/* .../footter*/  
+
+
+
+
+
